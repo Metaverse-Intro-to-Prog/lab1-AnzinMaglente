@@ -36,8 +36,8 @@ Sorry = ["Carl", "Kent", "Aki"]
 
 for i in Sorry:
     print("Dear " + i.title() + """,
-          I sadly needed to inform you that you are no longer invited to dinner,
-          due to some unforeseen circumstances, thank you for your understanding
+          I sadly have to inform you that you are no longer invited to dinner,
+          due to some unforeseen circumstances, I hope you understand.
           """)
 
 print("And all that remained was two, " + Invitees[0] + " and " + Invitees[1] + "\n")
