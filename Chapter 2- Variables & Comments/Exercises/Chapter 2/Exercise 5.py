@@ -23,5 +23,4 @@ Final_Amount = str(int(Money/USB))
 Reminder = str(int(Money%USB))
 
 
-print ("Our variables are:\n\tGirl's money = £50\n\tCost of USB sticks = £6\nTherefore, you would need to divide 50 with 6 to get the total USB sticks she can buy\n\t the total is " + Final_Amount + " with a reminder of £" + Reminder)
-
+print ("Our variables are:\n\tGirl's money = £50\n\tCost of USB sticks = £6\nTherefore, you would need to divide 50 with 6 to get the total USB sticks she can buy\n\t the total would be " + Final_Amount + " USBs with a reminder of £" + Reminder)
