@@ -19,8 +19,8 @@ Write a programme that calculates how many USB sticks she can buy and how many p
 
 Money = 50
 USB = 6
-Final_Amount = str(Money/USB)
-Reminder = str(Money%USB)
+Final_Amount = str(int(Money/USB))
+Reminder = str(int(Money%USB))
 
 
 print ("Our variables are:\n\tGirl's money = £50\n\tCost of USB sticks = £6\nTherefore, you would need to divide 50 with 6 to get the total USB sticks she can buy\n\t the total is " + Final_Amount + " with a reminder of £" + Reminder)
